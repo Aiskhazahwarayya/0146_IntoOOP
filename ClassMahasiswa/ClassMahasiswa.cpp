@@ -27,7 +27,11 @@ public:
 		cin >> namaMK;
 		cout << "SKS: ";
 		cin >> sks;
-
+	}
+	void tampilMK() {
+		cout << "Kode MK: " << kodeMK << endl;
+		cout << "Nama MK: " << namaMK << endl;
+		cout << "SKS: " << sks << endl;
 	}
 };
 
