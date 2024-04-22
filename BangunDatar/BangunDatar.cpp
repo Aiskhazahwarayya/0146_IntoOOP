@@ -7,6 +7,13 @@ private:
 public:
 	float Luas;
 
+	void input() {
+		cout << "Masukkan Panjang = ";
+		cin >> panjang;
+		cout << "Masukkan Lebarnya = ";
+		cin >> Lebar;
+	}
+
 };
 int main()
 {
